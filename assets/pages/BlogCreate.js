@@ -13,6 +13,7 @@ const BlogCreate = () => {
 
   const handleSave = () => {
     if (title && image && content && author) {
+      7;
       setIsSaving(true);
       let formData = new FormData();
       formData.append("title", title);
